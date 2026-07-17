@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="ACT prep, college coaching, and tutoring for Kentucky families, especially rural and small-town students. Based in Bardstown. Free 20-minute consultation.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wimpsett College &amp; Career Prep | ACT Prep &amp; College Coaching for Kentucky Families</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:title" content="Wimpsett College &amp; Career Prep">
+<meta property="og:description" content="ACT prep, college coaching, and tutoring for Kentucky families, especially rural and small-town students. Free 20-minute consultation.">
+<meta property="og:image" content="https://wimpsettcollegeprep-dotcom.github.io/wimpsettprep/jackson-rochester.jpg">
+<meta property="og:url" content="https://wimpsettcollegeprep-dotcom.github.io/wimpsettprep/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,400..900&family=Source+Serif+4:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --blue:#003B71; --deep:#002c54; --gold:#FFD100; --gold-dk:#E6BC00;
+    --paper:#fdfcf8; --tint:#eef3f9; --ink:#1a2333; --muted:#4a5668; --rule:#c7d2df;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto;}}
+  body{background:var(--paper);color:var(--ink);font-family:'Source Serif 4',Georgia,serif;font-size:18px;line-height:1.6;}
+  h1,h2,h3,.btn,nav{font-family:'Archivo',Arial,sans-serif;}
+  .wrap{max-width:960px;margin:0 auto;padding:0 24px;}
+
+  /* Nav */
+  nav{background:var(--deep);position:sticky;top:0;z-index:10;border-bottom:4px solid var(--gold);}
+  nav .wrap{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;}
+  nav .brand{color:#fff;font-weight:900;letter-spacing:.04em;font-size:17px;}
+  nav .brand span{color:var(--gold);}
+  nav a.btn{font-size:15px;padding:9px 18px;}
+
+  .btn{
+    display:inline-block;background:var(--gold);color:var(--deep);font-weight:900;
+    letter-spacing:.03em;text-decoration:none;padding:14px 28px;border-radius:8px;
+    border:none;cursor:pointer;font-size:17px;
+  }
+  .btn:hover{background:var(--gold-dk);}
+  .btn:focus-visible{outline:3px solid #fff;outline-offset:2px;}
+  .btn.blue{background:var(--blue);color:#fff;}
+  .btn.blue:hover{background:var(--deep);}
+  .btn.small{padding:10px 20px;font-size:15px;margin-top:12px;}
+  .socials{margin-top:26px;font-family:'Archivo';font-weight:700;font-size:16px;}
+  .socials a{color:var(--gold);text-decoration:none;margin:0 12px;}
+  .socials a:hover{text-decoration:underline;}
+
+  /* Hero */
+  header{background:linear-gradient(135deg,#00437f,var(--deep));color:#fff;position:relative;overflow:hidden;}
+  header .ghost{
+    position:absolute;right:-60px;top:-20px;width:520px;height:110%;opacity:.09;pointer-events:none;
+  }
+  header .wrap{padding:84px 24px 76px;position:relative;}
+  .eyebrow{font-family:'Archivo';font-size:13px;font-weight:700;letter-spacing:.26em;text-transform:uppercase;color:var(--gold);}
+  header h1{font-size:clamp(38px,6vw,58px);font-weight:900;font-stretch:88%;line-height:1.04;margin:14px 0 18px;max-width:14ch;}
+  header p{font-size:20px;max-width:52ch;color:#dfe7f2;margin-bottom:30px;}
+  header .note{font-size:15px;color:#aebfd4;font-style:italic;margin-top:14px;}
+
+  section{padding:72px 0;}
+  section.tint{background:var(--tint);}
+  h2{font-size:clamp(26px,4vw,34px);font-weight:900;font-stretch:90%;color:var(--blue);margin-bottom:8px;}
+  .h2-rule{width:88px;height:6px;background:var(--gold);border-radius:3px;margin-bottom:28px;}
+  .lede{font-size:19px;max-width:64ch;}
+  .lede + .lede{margin-top:16px;}
+
+  /* Services with dot leaders */
+  .svc{border-bottom:1px solid var(--rule);padding:22px 0;}
+  .svc:last-of-type{border-bottom:none;}
+  .svc .line{display:flex;align-items:baseline;gap:10px;}
+  .svc h3{font-size:21px;font-weight:800;}
+  .svc .dots{flex:1;border-bottom:3px dotted #9aa5b4;transform:translateY(-5px);min-width:24px;}
+  .svc .price{font-family:'Archivo';font-weight:900;color:var(--blue);font-size:20px;white-space:nowrap;}
+  .svc p{color:var(--muted);font-size:16.5px;margin-top:6px;max-width:60ch;}
+  .free-tag{background:var(--gold);color:var(--deep);font-family:'Archivo';font-weight:900;font-size:14px;padding:2px 10px;border-radius:5px;vertical-align:2px;}
+
+  /* Transparency note — the signature block */
+  .promise{
+    background:#fff;border:2px solid var(--gold);border-left:10px solid var(--gold);
+    border-radius:8px;padding:22px 26px;margin-top:34px;font-style:italic;font-size:17px;color:var(--ink);
+  }
+  .promise b{font-family:'Archivo';font-style:normal;color:var(--blue);}
+
+  /* Proof */
+  .proof-list{list-style:none;margin-top:8px;}
+  .proof-list li{padding:10px 0 10px 36px;position:relative;font-size:17.5px;border-bottom:1px solid var(--rule);}
+  .proof-list li:last-child{border-bottom:none;}
+  .proof-list li::before{
+    content:"✓";position:absolute;left:0;top:9px;width:24px;height:24px;border-radius:6px;
+    background:var(--gold);color:var(--deep);font-family:'Archivo';font-weight:900;
+    display:flex;align-items:center;justify-content:center;font-size:15px;
+  }
+
+  /* Steps */
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:10px;}
+  .step{background:#fff;border:1px solid var(--rule);border-top:8px solid var(--blue);border-radius:10px;padding:26px 24px;}
+  .step h3{font-size:19px;font-weight:800;color:var(--blue);margin-bottom:10px;}
+  .step p{font-size:16px;color:var(--muted);}
+  @media(max-width:760px){.steps{grid-template-columns:1fr;}}
+
+  /* KEES strip */
+  .kees{background:var(--gold);color:var(--deep);text-align:center;padding:30px 24px;}
+  .kees p{font-family:'Archivo';font-weight:900;font-size:clamp(18px,3vw,24px);max-width:32ch;margin:0 auto;}
+
+  /* Contact */
+  .contact{background:var(--deep);color:#fff;text-align:center;}
+  .contact h2{color:#fff;}
+  .contact .h2-rule{margin-left:auto;margin-right:auto;}
+  .contact p{color:#dfe7f2;max-width:52ch;margin:0 auto 26px;}
+  .contact .ways{font-family:'Archivo';font-weight:700;font-size:19px;margin:22px 0 30px;color:#fff;}
+  .contact .ways a{color:var(--gold);text-decoration:none;}
+  .contact .ways a:hover{text-decoration:underline;}
+  .calendly-mock{
+    max-width:640px;margin:34px auto 0;background:#fff;border-radius:12px;color:var(--muted);
+    padding:46px 24px;font-style:italic;border:2px dashed var(--rule);
+  }
+
+  .story-grid{display:flex;gap:44px;align-items:flex-start;}
+  .story-grid .txt{flex:1.4;}
+  .story-grid .pic{flex:1;min-width:260px;}
+  .story-grid .pic img{width:100%;border-radius:12px;border:1px solid var(--rule);display:block;}
+  .story-grid .pic figcaption{font-size:14px;color:var(--muted);font-style:italic;margin-top:10px;text-align:center;}
+  @media(max-width:760px){.story-grid{flex-direction:column;}}
+  .faq-item{border-bottom:1px solid var(--rule);padding:18px 0;}
+  .faq-item:last-of-type{border-bottom:none;}
+  .faq-item h3{font-size:19px;font-weight:800;color:var(--blue);}
+  .faq-item p{font-size:16.5px;color:var(--muted);margin-top:6px;max-width:62ch;}
+  footer{background:#001d38;color:#8fa5bd;font-size:14px;text-align:center;padding:22px;}
+  footer b{color:#c9d6e6;}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <div class="brand">WIMPSETT <span>COLLEGE &amp; CAREER PREP</span></div>
+    <a class="btn" href="#book">Book a free consult</a>
+  </div>
+</nav>
+
+<header>
+  <svg class="ghost" viewBox="0 0 600 700" aria-hidden="true">
+    <path d="M 60 60 L 200 640 L 320 260 L 440 640 L 580 60" fill="none" stroke="#fff" stroke-width="70" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  <div class="wrap">
+    <div class="eyebrow">Bardstown, KY · Serving rural &amp; small-town families across Kentucky</div>
+    <h1>Real college prep from someone who just did it.</h1>
+    <p>ACT prep, admissions coaching, tutoring, and research mentorship from a Bardstown High grad now at the University of Rochester. Honest rates, and I never sell promises I can't keep.</p>
+    <a class="btn" href="#book">Book a free 20-minute consultation</a>
+    <div class="note">Now booking summer sessions and fall ACT prep. Spots are limited.</div>
+  </div>
+</header>
+
+<section id="story">
+  <div class="wrap">
+    <h2>A roadmap built in Bardstown</h2>
+    <div class="h2-rule"></div>
+    <div class="story-grid">
+    <div class="txt">
+    <p class="lede">Two years ago I was a Bardstown High student working shifts at Freddy's and my family's insulation business, wondering whether a top national university was even realistic for a kid from a small Kentucky town. Nobody handed me a plan, so I built my own. I raised my ACT superscore to 32, wrote my application essays about Bardstown instead of hiding it, published research, and hunted down the scholarships that made it all affordable.</p>
+    <p class="lede">Today I study Brain &amp; Cognitive Sciences at the University of Rochester, and I coach Kentucky students through that same process. Rural and small-town kids are who I care about most, because I know exactly how far away this stuff can feel. I keep it honest, affordable, and free of the false promises this industry loves to sell.</p>
+    </div>
+    <figure class="pic">
+      <img src="jackson-rochester.jpg" loading="lazy" alt="Jackson Wimpsett in a Rochester jersey in front of Rush Rhees Library at the University of Rochester">
+      <figcaption>First-year kickoff at Rush Rhees Library, University of Rochester. A long way from Bardstown, and built entirely from it.</figcaption>
+    </figure>
+    </div>
+  </div>
+</section>
+
+<section class="tint" id="services">
+  <div class="wrap">
+    <h2>Services &amp; honest pricing</h2>
+    <div class="h2-rule"></div>
+
+    <div class="svc">
+      <div class="line"><h3>ACT Preparation</h3><div class="dots"></div><div class="price">$30/hr</div></div>
+      <p>An 8-week program with a <span class="free-tag">FREE</span> diagnostic session, official materials, and two full practice tests. Every point your student gains is real KEES scholarship money.</p>
+    </div>
+
+    <div class="svc">
+      <div class="line"><h3>College Admissions Coaching</h3><div class="dots"></div><div class="price">$150-$500</div></div>
+      <p>Everything from essay coaching to full application packages, plus a $75 walkthrough for Kentucky schools like UK, UofL, and WKU. Students write; I coach. Always.</p>
+    </div>
+
+    <div class="svc">
+      <div class="line"><h3>Early Bird Planning · Grades 8-10</h3><div class="dots"></div><div class="price">$200/semester</div></div>
+      <p>Four sessions and a written family roadmap: course mapping, activities, and KEES tracking from freshman year.</p>
+    </div>
+
+    <div class="svc">
+      <div class="line"><h3>Subject Tutoring</h3><div class="dots"></div><div class="price">$25/hr</div></div>
+      <p>Biology, Chemistry, AP Psychology, Anatomy, English &amp; writing. Small groups $15/hr per student.</p>
+    </div>
+
+    <div class="svc">
+      <div class="line"><h3>Healthcare Career Track</h3><div class="dots"></div><div class="price">from $25/hr</div></div>
+      <p>CNA, PCT, EKG, and Phlebotomy exam prep plus HOSA competition coaching, from a five-certification BHS Health Science Pathway grad.</p>
+    </div>
+
+    <div class="svc">
+      <div class="line"><h3>Research &amp; Leadership Mentorship</h3><div class="dots"></div><div class="price">$150-$325/semester</div></div>
+      <p>Build a real, submittable research project or a leadership record that transforms an application. Selective enrollment: I take 2-3 students per semester so every project gets real attention. <b>Applications are open right now</b> and I respond to every one within a week.</p>
+      <a class="btn blue small" href="https://forms.gle/LSxNR89ELUAcsnxK8">Apply for a selective program</a>
+      <a class="btn blue small" href="programs.html" style="background:transparent;color:var(--blue);border:2px solid var(--blue);">See how these programs work</a>
+    </div>
+
+    <div class="promise"><b>The transparency promise:</b> I will never guarantee scores, admissions, or results. Anyone who does is selling something. And a word on money: I offer sibling discounts, bundle discounts, and hardship pricing when a family needs it. If the rates above are out of reach, talk to me and we will work something out. Money should never keep a Kentucky kid from good help.</div>
+  </div>
+</section>
+
+<section id="proof">
+  <div class="wrap">
+    <h2>Proof, not promises</h2>
+    <div class="h2-rule"></div>
+    <ul class="proof-list">
+      <li>32 ACT superscore (35 Reading, 34 Science, 33 English), and I raised my own Science score 9 points between test dates</li>
+      <li>Published researcher in <i>Pathways: Stanford Journal of Public Health</i>, and 1 of 40 students nationally selected to present at Columbia University</li>
+      <li>Wrote KY Senate Resolution 59 as a high schooler</li>
+      <li>Managed a $150,000+ budget as KY-TN Key Club District Treasurer</li>
+      <li>Five healthcare certifications through the BHS Health Science Pathway</li>
+      <li>Featured by WHAS11 and The Kentucky Standard</li>
+    </ul>
+  </div>
+</section>
+
+<section class="tint" id="how">
+  <div class="wrap">
+    <h2>How it works</h2>
+    <div class="h2-rule"></div>
+    <div class="steps">
+      <div class="step">
+        <h3>1 · Free consultation</h3>
+        <p>A 20-minute call. You tell me where your student is, and I tell you honestly what would help, even when the answer is "you can do that yourselves for free."</p>
+      </div>
+      <div class="step">
+        <h3>2 · The plan</h3>
+        <p>A diagnostic or planning session builds a concrete roadmap: what we're doing, when, and what it costs. No surprises.</p>
+      </div>
+      <div class="step">
+        <h3>3 · The work</h3>
+        <p>Weekly sessions online year-round, and in person during my university breaks. Parents get an update after every single session.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <h2>Questions families actually ask</h2>
+    <div class="h2-rule"></div>
+    <div class="faq-item"><h3>Do you tutor online or in person?</h3><p>Online year-round over Zoom or Google Meet, with sessions recorded and shared with parents. I'm in person around Bardstown during my university breaks, and I'll share my break calendar when we start.</p></div>
+    <div class="faq-item"><h3>What if we can't afford it?</h3><p>Talk to me anyway. I offer sibling discounts, bundle discounts, and hardship pricing when a family needs it. The consultation is free, and sometimes my honest answer is that you can handle something yourselves without paying anyone.</p></div>
+    <div class="faq-item"><h3>Do you guarantee score improvements or admissions?</h3><p>No, and I never will. Anyone who does is selling you hope. I guarantee preparation, honesty, and effort, and I'll always tell you what's realistic for your student.</p></div>
+    <div class="faq-item"><h3>What grades do you work with?</h3><p>Mostly 8th through 12th. Early planning fits 8th to 10th graders, ACT prep and admissions coaching fit 10th through 12th, and subject tutoring covers middle and high school.</p></div>
+    <div class="faq-item"><h3>Will you write my student's essays?</h3><p>Never. Colleges can tell, and it puts your student at real risk. I brainstorm, outline, and edit alongside them. The words are always theirs, and that's what makes the essay work.</p></div>
+    <div class="faq-item"><h3>How does payment work?</h3><p>Semester packages are half up front and half at completion. Hourly sessions are paid up front. We go over everything in the free consultation and sign a simple agreement before the first session, so there are no surprises.</p></div>
+    <div class="faq-item"><h3>We're not near Bardstown. Can you still help?</h3><p>Yes. I work with families all across Kentucky online, and everything except in-person sessions works exactly the same wherever you are.</p></div>
+  </div>
+</section>
+
+<div class="kees">
+  <p>Every ACT point is KEES money. Every leadership role is a scholarship essay.</p>
+</div>
+
+<section class="contact" id="book">
+  <div class="wrap">
+    <h2>Fall is coming fast. Let's get ahead of it.</h2>
+    <div class="h2-rule"></div>
+    <p>Now booking summer sessions and fall ACT prep, and spots are limited. I work with families all across Kentucky, online year-round and in person around Bardstown during university breaks. If cost is a concern, ask me about hardship pricing. That conversation is always on the table.</p>
+    <div class="ways">📱 <a href="tel:5023311384">(502) 331-1384</a> &nbsp;·&nbsp; ✉️ <a href="mailto:wimpsettcollegeprep@gmail.com">wimpsettcollegeprep@gmail.com</a></div>
+    <div class="socials">
+      <a href="https://www.facebook.com/profile.php?id=61591352684061">Facebook</a> ·
+      <a href="https://www.instagram.com/wimpsettcareerprep/">Instagram</a> ·
+      <a href="https://linktr.ee/jwimpsett">All links (Linktree)</a>
+    </div>
+    <a class="btn" href="https://calendly.com/wimpsettcollegeprep">Book a free 20-minute consultation</a>
+    <div class="calendly-inline-widget" data-url="https://calendly.com/wimpsettcollegeprep?hide_gdpr_banner=1&primary_color=003b71" style="min-width:320px;height:700px;margin-top:34px;border-radius:12px;overflow:hidden;"></div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  </div>
+</section>
+
+<footer>
+  <b>Wimpsett College &amp; Career Prep</b> · Bardstown, KY · Jackson Wimpsett, Owner &amp; Operator<br>
+  Preparation, honesty, and effort. Never guarantees.<br>
+  <a href="https://www.facebook.com/profile.php?id=61591352684061" style="color:#8fa5bd">Facebook</a> · <a href="https://www.instagram.com/wimpsettcareerprep/" style="color:#8fa5bd">Instagram</a> · <a href="https://linktr.ee/jwimpsett" style="color:#8fa5bd">Linktree</a>
+</footer>
+
+</body>
+</html>
